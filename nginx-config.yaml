@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: YOURNAME-nginx-configmap
+data:
+  index.html: |
+    <html>
+    <h1>RSET LAB DAY</h1>
+    </br>
+    <h1>Hi! This is YOURNAME!</h1>
+    </html>
